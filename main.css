@@ -1,1 +1,227 @@
+/* ///// CSS Stylesheet by Amberfox.Studio ////// */
 
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;700;800&display=swap');
+
+body, .body-text {
+  font-family: "Kanit", Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #345265;
+}
+
+.container {
+  margin: 0 auto;
+}
+/* Our Comments Only */
+
+hr {
+  border: 1px solid #000000;
+  width: 100%;
+}
+.block-titles {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #000000;
+  margin-left: 20px;
+}
+.indicator {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+/* Our Comments Only */
+
+.content {
+  padding-left: 5%;
+  padding-bottom: 5%;
+}
+
+/*text styles*/
+
+h1 {
+  font-family: "Kanit", Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 46px;
+  line-height: 42px;
+  /* OC - Green */
+  color: #146165;
+}
+h2 {
+  font-family: "Kanit", Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 27px;
+  /* or 107% */
+  /* OC - Orange */
+  color: #db4325;
+}
+h3 {
+  font-family: "Kanit", Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  /* or 108% */
+  /* OC - Green */
+  color: #146165;
+}
+h3.caps {
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  font-weight: 800;
+  /* OC - Orange */
+  color: #db4325;
+}
+h4 {
+  font-family: "Kanit", Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 15px;
+  line-height: 15px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #db4325;
+  /*  display: flex;
+  align-items: flex-end;*/
+}
+h5 {
+  font-family: "Kanit", Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 16px;
+  /* or 112% */
+  color: #146165;
+}
+.green {
+  /* OC - Green */
+  color: #146165;
+}
+.orange {
+  /* OC - Orange */
+  color: #db4325;
+}
+.text-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.body-text-cursive {
+  font-family: "Kanit", Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #345265;
+}
+.link-text {
+  line-height: 18px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-decoration-line: underline;
+  /* OC - Orange */
+  color: #db4325;
+}
+
+/*text blocks*/
+
+.left-block {
+  border-left: 3px solid #db4325;
+}
+
+button, .btn {
+background: #DB4325;
+border-radius: 40px;
+font-family: "Kanit", Helvetica, sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+align-items: center;
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #FFFFFF;  
+padding: 4px 35px;
+}
+.quote-icon{
+    color: #E6E6E6;
+    font-size:46.88px;
+}
+.quote-end{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.wrapper {
+  display: flex;
+  display: inline;
+}
+
+@media only screen and (max-width: 767px) {
+
+/* Font Sizes */
+  body,
+  .body-text,
+  .body-text-cursive,
+  .link-text {
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+  }
+  h1 {
+    font-size: 34px;
+    line-height: 33px;
+  }
+  h2 {
+    font-size: 23px;
+    line-height: 21px;
+    font-weight: 700;
+  }
+  h3 {
+    font-size: 20px;
+    line-height: 18px;
+  }
+  h3.caps {
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 700;
+  }
+  h4 {
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: 300;
+    margin-bottom: 0.2rem;
+  }
+  h5 {
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+  }
+  button, .btn {
+    font-size: 13px;
+    line-height: 25px;
+  }
+
+}
